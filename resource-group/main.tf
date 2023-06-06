@@ -15,6 +15,6 @@ provider "azurerm" {
   subscription_id = "f7b95d20-4cec-465d-a2b2-6e9227f0772f"
 }
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
+  name     = "kubernates"
   location = "West Europe"
 }
